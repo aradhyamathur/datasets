@@ -50,6 +50,7 @@ _DATASET_TYPE = [
     'text',
     'translate',
     'video',
+    'graphics'
 ]
 
 flags.DEFINE_string('tfds_dir', None, 'Root directory of tfds (auto-computed)')
